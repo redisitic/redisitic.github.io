@@ -99,7 +99,7 @@ footer{
 }
 @media(max-width: 930px){
     html{
-        font-size: 12px;
+        font-size: 8px;
     }
     #Sidebar{
         display: none;
