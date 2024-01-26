@@ -140,10 +140,10 @@ footer{
 @media(max-width: 930px) and (orientation: landscape){
     html{
         font-size: 8px;
-        margin-left: 8%;
+        margin-left: 4%;
     }
     #Master{
-        margin-left: 20%;
+        margin-left: 22%;
         margin-right: 4px;
     }
     .checkHide{
