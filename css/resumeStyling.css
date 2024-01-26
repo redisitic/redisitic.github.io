@@ -3,16 +3,6 @@ html{
     font-size: 12px;
     font-family: 'Roboto','Segoe UI', Tahoma, Verdana, sans-serif;
     font-weight: 400;
-    
-    color: #CACACA;
-}
-body:after{
-    position:fixed;
-    top:0;
-    height:100vh;
-    left:0;
-    right:0;
-    z-index:-1;
     background-image: url("../imgs/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,6 +10,7 @@ body:after{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #CACACA;
 }
 h1{
     margin-bottom: 16px;
@@ -156,5 +147,16 @@ footer{
     }
     .checkHide{
         display: none;
+    }
+}
+@supports ( -webkit-touch-callout : none) {
+    html{
+    background-attachment:scroll
+    }
+}
+    
+@supports not ( -webkit-touch-callout : none) {
+    html{
+    background-attachment: fixed;
     }
 }
