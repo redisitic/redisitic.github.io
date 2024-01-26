@@ -115,6 +115,18 @@ footer{
     margin-bottom: 8px;
     color: #F1F1F1;
 }
+.stdGlass{
+    text-align: left;
+    background: rgba(64, 64, 64, 0.2);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(32px);
+    border-radius: 16px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.15);
+    padding: 16px;
+    margin-bottom: 16px;
+}
 @media(max-width: 600px) and (orientation: portrait){
     html{
         font-size: 8px;
@@ -142,10 +154,9 @@ footer{
 @media(max-width: 930px) and (orientation: landscape){
     html{
         font-size: 8px;
-        margin-left: 4%;
     }
     #Master{
-        margin-left: 22%;
+        margin-left: 20%;
         margin-right: 4px;
     }
     .checkHide{
