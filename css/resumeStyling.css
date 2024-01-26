@@ -41,6 +41,9 @@ hr{
 p{
     font-size: 2rem;
 }
+ul ul{
+    list-style-type: disc;
+}
 li{
     font-size: 2rem;
 }
