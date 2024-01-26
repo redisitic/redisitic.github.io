@@ -6,6 +6,9 @@ html{
     background-image: url("../imgs/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: #CACACA;
 }
@@ -69,7 +72,8 @@ footer{
 }
 #Sidebar{
     background: rgba(64, 64, 64, 0.2);
-    backdrop-filter: blur(64px);
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(32px);
     border-radius: 16px;
     border-width: 0px;
     border-style: solid;
