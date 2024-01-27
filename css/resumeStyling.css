@@ -142,7 +142,6 @@ footer{
 @media(min-width: 600px) and (max-width: 930px) and (orientation: portrait){
     html{
         font-size: 8px;
-        padding: auto;
     }
     .checkHide{
         display: none;
@@ -155,6 +154,7 @@ footer{
 @media(max-width: 930px) and (orientation: landscape){
     html{
         font-size: 8px;
+        padding : 0px 0px 0px 0px;
     }
     #Master{
         margin-left: 20%;
