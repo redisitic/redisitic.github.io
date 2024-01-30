@@ -127,9 +127,6 @@ footer{
     padding: 16px;
     margin-bottom: 16px;
 }
-.stdGlass:hover{
-    font-weight: bold;
-}
 @media(max-width: 600px) and (orientation: portrait){
     html{
         font-size: 8px;
